@@ -19,38 +19,43 @@
   margin-left: auto;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 1800px) {
   .container-sm, .container {
-    max-width: 540px;
+    max-width: 1720px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1800px) {
   .container-md, .container-sm, .container {
-    max-width: 720px;
+    max-width: 1720px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1800px) {
   .container-lg, .container-md, .container-sm, .container {
-    max-width: 960px;
+    max-width: 1720px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1800px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1140px;
+    max-width: 1720px;
   }
 }
-@media (min-width: 1400px) {
+@media (min-width: 1800px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1320px;
+    max-width: 1720px;
+  }
+}
+@media (min-width: 1800px) {
+  .container-md, .container-sm, .container {
+    max-width: 1720px;
   }
 }
 :root {
   --bs-breakpoint-xs: 0;
-  --bs-breakpoint-sm: 576px;
-  --bs-breakpoint-md: 768px;
-  --bs-breakpoint-lg: 992px;
-  --bs-breakpoint-xl: 1200px;
-  --bs-breakpoint-xxl: 1400px;
+  --bs-breakpoint-sm: 1800px;
+  --bs-breakpoint-md: 1800px;
+  --bs-breakpoint-lg: 1800px;
+  --bs-breakpoint-xl: 1800px;
+  --bs-breakpoint-xxl: 1800px;
 }
 
 .row {
